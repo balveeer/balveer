@@ -4,7 +4,7 @@ const AboutMe = () => {
   return (
     <div
       id="about"
-      className="w-full h-full min-h-screen flex flex-col gap-4 p-8"
+      className="w-full h-full min-h-screen flex flex-col gap-4 px-2 py-8"
     >
       <Title title="About Me" />
       <p className="text-2xl whitespace-break-spaces dark:text-white w-full max-w-3xl mx-auto space-grotesk p-4 rounded-2xl border-4 border-gray-600">
