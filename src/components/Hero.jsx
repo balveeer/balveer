@@ -16,12 +16,12 @@ const Hero = () => {
     
   return (
     <div className="w-full h-full min-h-screen flex flex-col md:flex-row-reverse items-center justify-center rubik-mono-one-regular">
-      <div className="w-full md:w-1/2 h-full flex justify-center md:justify-start  items-center p-8 pt-4">
+      <div className="w-full md:w-1/2 h-full flex justify-center md:justify-start items-center p-8 pt-4">
         <span className="relative">
           <img
-            className="w-full rounded-full max-w-md select-none shadow-black shadow-lg"
+            className="w-full min-h-64 min-w-64 rounded-full max-w-md select-none shadow-black shadow-lg"
             src={avatar}
-            alt="avatar png"
+            alt="avatar image"
           />
           {theme !== "dark" ? (
             <SunIcon
