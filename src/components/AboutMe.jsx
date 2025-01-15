@@ -1,5 +1,6 @@
 import React from 'react'
-import Title from './Title'
+import Title from './Title';
+import Resume from '../assets/balveerresume.pdf';
 const AboutMe = () => {
   return (
     <div
@@ -28,7 +29,7 @@ const AboutMe = () => {
         ever-changing world of web development.
       </p>
       <a
-        href="/src/assets/balveerresume.pdf"
+        href={Resume}
         target="_blank"
         rel="noopener noreferrer"
         className="mx-auto p-2 px-4 border-2 dark:text-white border-black dark:border-white dark:hover:text-yellow-500 dark:hover:border-yellow-500 hover:text-yellow-500 hover:border-yellow-500 rounded-lg group space-grotesk font-bold"
